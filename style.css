@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=League+Spartan:wght@400;500;700&family=Manrope:wght@400;800&display=swap");
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  background-color: hwb(300 95% 3%);
+  background-image: url("https://www.w3.org/2000/svg");
+  
+}
+.main {
+  width: 90%;
+  padding-bottom: 14px;
+  margin: 10px auto;
+  background-color: hsl(0, 0%, 100%);
+  
+}
+.alpha {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.content-h {
+  color: hsl(300, 43%, 22%);
+  font-size: 50px;
+  width: 400px;
+}
+.content-p {
+  color: hsl(303, 10%, 53%);
+  font-size: 17px;
+  width: 400px;
+}
+.star-holder {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 40%;
+}
+.star {
+  margin-top: 12px;
+}
+
+.star-container {
+  border: none;
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+}
+.margin-left-3rem {
+  margin-left: 3rem;
+}
+.margin-left-6rem {
+  margin-left: 6rem;
+}
+
+.starlite {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  margin-left: 2rem;
+}
+.container {
+  display: flex;
+  padding: 0 36px;
+  height: 40%;
+  gap: 1rem;
+}
+.header {
+  display: flex;
+}
+.img {
+  border-radius: 50%;
+}
+.name {
+  color: hsl(303, 10%, 53%);
+  line-height: 1px;
+}
+.status {
+  color: hsl(333, 80%, 67%);
+}
+.info {
+  margin-left: 2rem;
+}
+.img-content {
+  color: hsl(303, 10%, 53%);
+}
+.card {
+  background-color: hsl(300, 43%, 22%);
+  padding: 2rem;
+  border-radius: 4px;
+  width: 33%;
+}
+.card-mt-1 {
+  margin-top: 1rem;
+}
+.card-mt-2 {
+  margin-top: 2rem;
+}
